@@ -18,6 +18,7 @@
 		855490A317E7F0D600D15EA5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 855490A217E7F0D600D15EA5 /* Default-568h@2x.png */; };
 		855490A617E7F0D600D15EA5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 855490A517E7F0D600D15EA5 /* ViewController.m */; };
 		855490A917E7F0D600D15EA5 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 855490A717E7F0D600D15EA5 /* ViewController.xib */; };
+		855490B117E7F97200D15EA5 /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = 855490B017E7F97200D15EA5 /* test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		855490A417E7F0D600D15EA5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		855490A517E7F0D600D15EA5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		855490A817E7F0D600D15EA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		855490AF17E7F97200D15EA5 /* test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = test.h; path = ../test.h; sourceTree = "<group>"; };
+		855490B017E7F97200D15EA5 /* test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = test.m; path = ../test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 		8554909217E7F0D600D15EA5 /* helloGit */ = {
 			isa = PBXGroup;
 			children = (
+				855490AF17E7F97200D15EA5 /* test.h */,
+				855490B017E7F97200D15EA5 /* test.m */,
 				8554909B17E7F0D600D15EA5 /* AppDelegate.h */,
 				8554909C17E7F0D600D15EA5 /* AppDelegate.m */,
 				855490A417E7F0D600D15EA5 /* ViewController.h */,
@@ -176,6 +181,7 @@
 				8554909917E7F0D600D15EA5 /* main.m in Sources */,
 				8554909D17E7F0D600D15EA5 /* AppDelegate.m in Sources */,
 				855490A617E7F0D600D15EA5 /* ViewController.m in Sources */,
+				855490B117E7F97200D15EA5 /* test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
